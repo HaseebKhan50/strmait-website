@@ -1,0 +1,504 @@
+@font-face {
+    font-family: "Poppin_regular";
+    src: url(./font/Poppins-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: "Poppin_bold";
+    src: url(./font/Poppins-ExtraBold.ttf);
+}
+
+body {
+    background-color: #141414;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-image {
+    /* margin-top: -18px; */
+    /* padding-top: 10px; */
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6)url(./img/image1.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    background-blend-mode: darken;
+    height: 100vh auto;
+}
+
+.nav-bar {
+    background: rgba(1.2, 1.2, 1.2, 0.5);
+    height: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    font-family: "Poppin_regular";
+    flex-wrap: wrap;
+
+}
+
+.logo_link {
+    display: flex;
+    align-items: center;
+}
+
+.link-div {
+    width: 100%;
+}
+
+.logo-1 {
+    width: 150px;
+
+    padding: 10px;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.account {
+
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.search,
+.bell,
+.contact {
+    width: 35px;
+    height: 35px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.subscribe-btn {
+    width: 50%;
+
+}
+
+.subscribe {
+    background-color: red;
+    color: white;
+    font-family: 'Arial';
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    padding: 16px;
+    width: 180px;
+
+}
+
+h1 {
+
+    font-family: "Poppin_bold";
+    color: white;
+    margin-top: 50px;
+    font-size: 100px;
+    font-weight: 600;
+    background-image: url(./img/taxt.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.h1_2 {
+    font-family: "Poppin_bold";
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    background-image: url(./img/taxt.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-star,
+.fa-star-half {
+    color: red;
+}
+
+.gp_div {
+    background-color: gray;
+    width: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+
+.para {
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.fa-circle-play {
+    color: white;
+
+}
+
+.fa-circle-play:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.div_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+
+.div_flex_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.image_text {
+
+
+    width: 470px;
+    font-family: "Poppin_regular";
+    margin-top: 170px;
+    height: 500px auto;
+
+}
+
+.image_text_2 {
+    width: 500px;
+    height: 500px;
+    font-family: "Poppin_regular";
+    margin-top: 170px;
+    height: 500px auto;
+
+
+}
+
+.watch_trailer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 60px;
+    margin-right: 50px;
+    width: auto;
+
+}
+
+.play_btn {
+    font-size: 90px;
+}
+
+.btn-para {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: "Arial";
+
+}
+
+p {
+    color: white;
+}
+
+.align_boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.align_boxes_2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+
+}
+
+
+.imbd,
+.gp_div {
+    margin-left: -20px;
+}
+
+.mintus {
+    margin-right: 50px;
+}
+
+.imbd,
+.gp_div,
+.mintus {
+    font-size: 16px;
+}
+
+.movi_div {
+
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.bg_style_1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/movi1.jpg);
+    background-blend-mode: black;
+    width: 36%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+
+    transition: .3s;
+}
+
+.bg_style_2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/movi2.jpg);
+    width: 36%;
+    height: 300px;
+    background-size: cover;
+
+    transition: .3s;
+}
+
+.bg_style_3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/movi3.jpg);
+
+    width: 36%;
+    height: 300px;
+    background-size: cover;
+    transition: .3s;
+
+
+}
+
+.bg_style_1:hover,
+.bg_style_2:hover,
+.bg_style_3:hover,
+.bg_style_4:hover,
+.bg_style_5:hover,
+.bg_style_6:hover,
+.bg_style_7:hover,
+.bg_style_8:hover,
+.bg_style_9:hover {
+    cursor: pointer;
+    border-left: 4px solid red;
+    margin-left: 20px;
+    transition: .3s;
+    -ms-transform: scale(1.6);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.movies_thumbnails {
+    display: flex;
+}
+
+.main_container_movie {
+    width: 90%;
+}
+
+.container_image {
+    display: flex;
+    justify-content: center;
+}
+
+.upcoming_heading_viewall {
+    font-family: "Poppin_regular";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.view {
+    color: red;
+}
+
+.main-image-2 {
+    margin-top: 70px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6)url(./img/dragion.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+.bg-1-text {
+    color: white;
+    font-family: "Poppin_regular";
+    font-size: 15.72px;
+    margin-left: 40px;
+    margin-top: 90px;
+    line-height: 20px;
+}
+
+button {
+    font-family: "Arial";
+    margin-top: 20px;
+
+    background-color: red;
+    color: white;
+    font-family: 'Arial';
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    padding: 16px;
+    width: 150px;
+}
+
+.bg_style_4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/movi4.png);
+    background-blend-mode: black;
+    width: 36%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+
+    transition: .3s;
+}
+
+.bg_style_5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/movi5.jpg);
+    width: 36%;
+    height: 300px;
+    background-size: cover;
+
+    transition: .3s;
+}
+
+.bg_style_6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/movi1.jpg);
+
+    width: 36%;
+    height: 300px;
+    background-size: cover;
+    transition: .3s;
+}
+
+
+.bg_style_7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/football.jpg);
+    background-blend-mode: black;
+    width: 36%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+
+    transition: .3s;
+}
+
+.bg_style_8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/face.jpg);
+    width: 36%;
+    height: 300px;
+    background-size: cover;
+
+    transition: .3s;
+}
+
+.bg_style_9 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/zombi.jpg);
+
+    width: 36%;
+    height: 300px;
+    background-size: cover;
+    transition: .3s;
+}
+
+.footer {
+    font-family: 'Poppin_regular';
+    background-color: #191919;
+    /* width: 100%; */
+    height: 100%;
+    padding-top: 30px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_text{
+    width: 20%;
+    height: 230px;
+  
+}
+.footer_link {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 400;
+    /* background-color: aqua; */
+}
+
+.footer_para {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main_div {
+    width: 40%;
+    height: 230px;
+    /* margin-left: 55px; */
+    margin-top: 20px;
+   
+    /* background-color: blueviolet; */
+
+}
+
+.follow_us,
+.streamit_app,
+.font {
+    color: white;
+    font-size: 18px;
+}
+
+
+.font_social_icon {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.font {
+    width:100% ;
+}
+
+
+.app_store_icon{
+      display: flex;
+      align-items: center;  
+}
